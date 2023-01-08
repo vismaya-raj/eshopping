@@ -1,29 +1,27 @@
 import React from "react";
+import "./Checkout.css";
+import { CheckoutProduct } from "./CheckoutProduct";
+import { Subtotal } from "./Subtotal";
 export function CheckOut() {
   return (
-    <div className="Checkout_product">
-      <img
-        src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1.CB423492668"
-        className="checkout_ad"
-        alt="ad"
-      />
-      <div className="CheckoutProduct_info">
-        <h3 className="CheckoutProductTitle">Your Orders</h3>
-        <p className="CheckoutProduct_title">
-          ZOUK Tote Bags for Women - Handmade Bags for Daily Use - Vegan Leather
-          Handbags with Double Handle - Printed Totes for Women.
-        </p>
+    <div className="checkout">
+      <div className="checkout_left">
         <img
-          src="https://m.media-amazon.com/images/I/71lhpSraYML._UL1100_.jpg"
-          alt="ZoukBag"
-          className="checkout_image"
+          src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1.CB423492668"
+          className="checkout_ad"
+          alt="ad"
         />
-        <p className="checkout_price">
-          <sup>₹</sup>1703
-        </p>
+
+        <div>
+          <h2 className="checkout_title">Your Orders</h2>
+          <CheckoutProduct />
+        </div>
       </div>
-      <div className="checkoutproduct_rating">⭐⭐⭐⭐⭐⭐</div>
-      <button className="Checkout_basket">Remove from basket</button>
+      <div className="checkout_right">
+      <Subtotal/>
+
+      </div>
+      
     </div>
   );
 }
