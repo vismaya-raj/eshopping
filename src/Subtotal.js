@@ -23,6 +23,8 @@ export function Subtotal() {
       thousandSeparator={true}
      
       />
+      <><button className="Subtotal_button" >Proceed to buy</button></>
+      
     </div>
   );
 }
