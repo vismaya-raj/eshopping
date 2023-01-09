@@ -21,7 +21,10 @@ export function CheckoutProduct() {
 
         <div className="checkoutproduct_rating">⭐⭐⭐⭐⭐⭐</div>
       </div>
-      <button className="Checkout_basket">Remove from basket</button>
-    </div>
+   
+      
+    <button className="Checkout_basket">Remove from basket</button>
+    </div>  
+   
   );
 }
