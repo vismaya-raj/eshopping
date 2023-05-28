@@ -54,7 +54,7 @@ import Product from "./Product";
             title="Redmi 80 cm (32 inches) Android 11 Series HD Ready Smart LED TV | L32M6-RA/L32M7-RA (Black)"
             price={13999}
             rating="⭐⭐⭐⭐⭐"
-            image="httpshttps://thumbs.https://img.freepik.com/free-photo/space-background-realisticxyz-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg.com/b/lonely-oak-tree-standing-field-night-milky-way-stars-galaxy-sky-background-shot-romania-237237356.jpg://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+            image="httpshttps://thumbs.https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg.com/b/lonely-oak-tree-standing-field-night-milky-way-stars-galaxy-sky-background-shot-romania-237237356.jpg://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
           />
         </div>
       </div>
