@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 
-function Home() {
+ export default function Home() {
   return (
     <div className="home">
       <div className="home_container">
@@ -54,11 +54,11 @@ function Home() {
             title="Redmi 80 cm (32 inches) Android 11 Series HD Ready Smart LED TV | L32M6-RA/L32M7-RA (Black)"
             price={13999}
             rating="⭐⭐⭐⭐⭐"
-            image="https://m.media-amazon.com/images/I/71L-lTQnJiL._SL1500_.jpg"
+            image="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
           />
         </div>
       </div>
     </div>
   );
 }
-export default Home;
+
